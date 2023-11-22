@@ -16,5 +16,19 @@
     "Rider_Weight_CORRECT": true,
     "Smoothing_Methods_CORRECT": true,
     "Data_Cleaning_Required": true,
-    "DATA_CLEAN_COMPLETED": true
+    "DATA_CLEAN_COMPLETED": true,
+    "YAML_CHANGED_CIRC_GEAR": false,
+    "INVALID_LAPS_REMOVED_1": true,
+    "SYNC_LAP_SET": true,
+    "MATCH_METHOD_LAP": true,
+    "POWER_LR_SWAP": true,
+    "WHEEL_CIRC_OVERRIDE": true,
+    "LAP_DISTs_OK": true,
+    "TARCK_POS_CORRECT": true,
+    "BR_WHEEL_CIRC_SET_CORRECT": true,
+    "PUB_DRAG_SHIFTED": true,
+    "POWER_PMF_SHIFT_NOTED": true,
+    "RUN_PEAKS_SPIKES": true,
+    "CLEANED_FIELDS_SELECTED": true,
+    "CLEANED_FIELDS_CHECKED": true
 }

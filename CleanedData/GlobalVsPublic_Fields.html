@@ -1,0 +1,363 @@
+---
+    layout: page                   
+    subheadline: Data Issues
+    title: Global vs Public field discrepancies
+    teaser: Shown below are the differences found between Global and Public versions of the same data fields. <br>              Processing of some Public fields may cause a large number of exact value mismatches but the overall average remains close to 100%
+    categories:
+      - 
+    tags:
+      - 
+    style:                 # Adding additional CSS-styles to <head>
+    breadcrumb: false      # before setting to true need to sort out how you want it to get the section names etc 
+    homepage: false        # Hack to make the navigation highlight this page as active in the topbar
+---
+    <html>
+        <head>
+            
+        </head>
+
+        <body>
+            <table border="1" class="dataframe mystyle">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Test Run</th>
+      <th>Field-1</th>
+      <th>Field-2</th>
+      <th>Field1-Avg</th>
+      <th>Field2-Avg</th>
+      <th>Likeness %</th>
+      <th>Diff Count</th>
+      <th>%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>R02</td>
+      <td>P</td>
+      <td>Left pedal power (W)</td>
+      <td>159.902609</td>
+      <td>159.775468</td>
+      <td>100.08</td>
+      <td>11900</td>
+      <td>100.00</td>
+    </tr>
+    <tr>
+      <td>R03</td>
+      <td>P</td>
+      <td>Left pedal power (W)</td>
+      <td>176.810424</td>
+      <td>176.962209</td>
+      <td>99.91</td>
+      <td>11538</td>
+      <td>99.98</td>
+    </tr>
+    <tr>
+      <td>R05</td>
+      <td>P</td>
+      <td>Left pedal power (W)</td>
+      <td>174.061622</td>
+      <td>173.876630</td>
+      <td>100.11</td>
+      <td>11653</td>
+      <td>99.94</td>
+    </tr>
+    <tr>
+      <td>R06</td>
+      <td>P</td>
+      <td>Left pedal power (W)</td>
+      <td>177.376460</td>
+      <td>177.317588</td>
+      <td>100.03</td>
+      <td>13318</td>
+      <td>99.98</td>
+    </tr>
+    <tr>
+      <td>R08</td>
+      <td>P</td>
+      <td>Left pedal power (W)</td>
+      <td>176.218338</td>
+      <td>176.473010</td>
+      <td>99.86</td>
+      <td>13757</td>
+      <td>99.98</td>
+    </tr>
+    <tr>
+      <td>R09</td>
+      <td>P</td>
+      <td>Left pedal power (W)</td>
+      <td>172.835893</td>
+      <td>173.175845</td>
+      <td>99.80</td>
+      <td>17435</td>
+      <td>99.97</td>
+    </tr>
+    <tr>
+      <td>R10</td>
+      <td>P</td>
+      <td>Left pedal power (W)</td>
+      <td>182.415399</td>
+      <td>182.911285</td>
+      <td>99.73</td>
+      <td>20811</td>
+      <td>99.96</td>
+    </tr>
+    <tr>
+      <td>R02</td>
+      <td>Power-left</td>
+      <td>Left pedal power (W)</td>
+      <td>157.397661</td>
+      <td>159.775468</td>
+      <td>98.51</td>
+      <td>11625</td>
+      <td>97.69</td>
+    </tr>
+    <tr>
+      <td>R03</td>
+      <td>Power-left</td>
+      <td>Left pedal power (W)</td>
+      <td>181.117667</td>
+      <td>176.962209</td>
+      <td>102.35</td>
+      <td>11171</td>
+      <td>96.80</td>
+    </tr>
+    <tr>
+      <td>R04</td>
+      <td>Power-left</td>
+      <td>Left pedal power (W)</td>
+      <td>175.565043</td>
+      <td>173.411805</td>
+      <td>101.24</td>
+      <td>13177</td>
+      <td>96.75</td>
+    </tr>
+    <tr>
+      <td>R05</td>
+      <td>Power-left</td>
+      <td>Left pedal power (W)</td>
+      <td>179.731278</td>
+      <td>173.876630</td>
+      <td>103.37</td>
+      <td>11540</td>
+      <td>98.97</td>
+    </tr>
+    <tr>
+      <td>R06</td>
+      <td>Power-left</td>
+      <td>Left pedal power (W)</td>
+      <td>181.342319</td>
+      <td>177.317588</td>
+      <td>102.27</td>
+      <td>13025</td>
+      <td>97.79</td>
+    </tr>
+    <tr>
+      <td>R07</td>
+      <td>Power-left</td>
+      <td>Left pedal power (W)</td>
+      <td>180.335767</td>
+      <td>174.991352</td>
+      <td>103.05</td>
+      <td>15374</td>
+      <td>98.30</td>
+    </tr>
+    <tr>
+      <td>R08</td>
+      <td>Power-left</td>
+      <td>Left pedal power (W)</td>
+      <td>181.088564</td>
+      <td>176.473010</td>
+      <td>102.62</td>
+      <td>13550</td>
+      <td>98.47</td>
+    </tr>
+    <tr>
+      <td>R09</td>
+      <td>Power-left</td>
+      <td>Left pedal power (W)</td>
+      <td>178.375470</td>
+      <td>173.175845</td>
+      <td>103.00</td>
+      <td>17171</td>
+      <td>98.46</td>
+    </tr>
+    <tr>
+      <td>R10</td>
+      <td>Power-left</td>
+      <td>Left pedal power (W)</td>
+      <td>187.267852</td>
+      <td>182.911285</td>
+      <td>102.38</td>
+      <td>20324</td>
+      <td>97.62</td>
+    </tr>
+    <tr>
+      <td>R02</td>
+      <td>P.1</td>
+      <td>Right pedal power (W)</td>
+      <td>157.314511</td>
+      <td>157.397695</td>
+      <td>99.95</td>
+      <td>11896</td>
+      <td>99.97</td>
+    </tr>
+    <tr>
+      <td>R03</td>
+      <td>P.1</td>
+      <td>Right pedal power (W)</td>
+      <td>180.875939</td>
+      <td>181.117646</td>
+      <td>99.87</td>
+      <td>11537</td>
+      <td>99.97</td>
+    </tr>
+    <tr>
+      <td>R04</td>
+      <td>P.1</td>
+      <td>Right pedal power (W)</td>
+      <td>174.862877</td>
+      <td>175.565075</td>
+      <td>99.60</td>
+      <td>13616</td>
+      <td>99.97</td>
+    </tr>
+    <tr>
+      <td>R06</td>
+      <td>P.1</td>
+      <td>Right pedal power (W)</td>
+      <td>181.063507</td>
+      <td>181.342330</td>
+      <td>99.85</td>
+      <td>13316</td>
+      <td>99.97</td>
+    </tr>
+    <tr>
+      <td>R07</td>
+      <td>P.1</td>
+      <td>Right pedal power (W)</td>
+      <td>180.040873</td>
+      <td>180.335796</td>
+      <td>99.84</td>
+      <td>15639</td>
+      <td>99.99</td>
+    </tr>
+    <tr>
+      <td>R09</td>
+      <td>P.1</td>
+      <td>Right pedal power (W)</td>
+      <td>178.868572</td>
+      <td>178.375451</td>
+      <td>100.28</td>
+      <td>17436</td>
+      <td>99.98</td>
+    </tr>
+    <tr>
+      <td>R10</td>
+      <td>P.1</td>
+      <td>Right pedal power (W)</td>
+      <td>187.226899</td>
+      <td>187.267817</td>
+      <td>99.98</td>
+      <td>20811</td>
+      <td>99.96</td>
+    </tr>
+    <tr>
+      <td>R02</td>
+      <td>Power-right</td>
+      <td>Right pedal power (W)</td>
+      <td>159.775482</td>
+      <td>157.397695</td>
+      <td>101.51</td>
+      <td>11627</td>
+      <td>97.71</td>
+    </tr>
+    <tr>
+      <td>R03</td>
+      <td>Power-right</td>
+      <td>Right pedal power (W)</td>
+      <td>176.962141</td>
+      <td>181.117646</td>
+      <td>97.71</td>
+      <td>11174</td>
+      <td>96.83</td>
+    </tr>
+    <tr>
+      <td>R04</td>
+      <td>Power-right</td>
+      <td>Right pedal power (W)</td>
+      <td>173.411794</td>
+      <td>175.565075</td>
+      <td>98.77</td>
+      <td>13177</td>
+      <td>96.75</td>
+    </tr>
+    <tr>
+      <td>R05</td>
+      <td>Power-right</td>
+      <td>Right pedal power (W)</td>
+      <td>173.876620</td>
+      <td>179.731292</td>
+      <td>96.74</td>
+      <td>11540</td>
+      <td>98.97</td>
+    </tr>
+    <tr>
+      <td>R06</td>
+      <td>Power-right</td>
+      <td>Right pedal power (W)</td>
+      <td>177.317620</td>
+      <td>181.342330</td>
+      <td>97.78</td>
+      <td>13024</td>
+      <td>97.78</td>
+    </tr>
+    <tr>
+      <td>R07</td>
+      <td>Power-right</td>
+      <td>Right pedal power (W)</td>
+      <td>174.991351</td>
+      <td>180.335796</td>
+      <td>97.04</td>
+      <td>15375</td>
+      <td>98.31</td>
+    </tr>
+    <tr>
+      <td>R08</td>
+      <td>Power-right</td>
+      <td>Right pedal power (W)</td>
+      <td>176.473074</td>
+      <td>181.088541</td>
+      <td>97.45</td>
+      <td>13551</td>
+      <td>98.48</td>
+    </tr>
+    <tr>
+      <td>R09</td>
+      <td>Power-right</td>
+      <td>Right pedal power (W)</td>
+      <td>173.175833</td>
+      <td>178.375451</td>
+      <td>97.09</td>
+      <td>17167</td>
+      <td>98.43</td>
+    </tr>
+    <tr>
+      <td>R10</td>
+      <td>Power-right</td>
+      <td>Right pedal power (W)</td>
+      <td>182.911271</td>
+      <td>187.267817</td>
+      <td>97.67</td>
+      <td>20322</td>
+      <td>97.61</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <!-- Inserts MD file converted to HTML -->
+            <zero-md src="GlobalVsPublic_Fields_.md"></zero-md> 
+            <p></p>
+            <p><a href="javascript:history.back()">...Go Back</a></p>               
+        </body>
+    </html>
+    

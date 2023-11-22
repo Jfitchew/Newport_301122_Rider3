@@ -19,24 +19,9 @@
   url: "/ValidatedData/"
   side: left
   dropdown:
-  - title: "Test Run 2"
-    url: "/ValidatedData/R02/"
-  - title: "Test Run 3"
-    url: "/ValidatedData/R03/"
-  - title: "Test Run 4"
-    url: "/ValidatedData/R04/"
-  - title: "Test Run 5"
-    url: "/ValidatedData/R05/"
-  - title: "Test Run 6"
-    url: "/ValidatedData/R06/"
-  - title: "Test Run 7"
-    url: "/ValidatedData/R07/"
-  - title: "Test Run 8"
-    url: "/ValidatedData/R08/"
-  - title: "Test Run 9"
-    url: "/ValidatedData/R09/"
-  - title: "Test Run 10"
-    url: "/ValidatedData/R10/"
+  - title: "Data Summaries"
+    url: "/ValidatedData/"
+
 
 - title: "Data Analysis"
   url: "/AnalysedData/"

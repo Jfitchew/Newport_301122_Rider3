@@ -1,0 +1,75 @@
+---
+    layout: page                   
+    subheadline: Data Validation
+    title: Data Cleaning Impact
+    teaser: Shown below are any metrics where the impact of Cleaning the data of Outliers and Spikes affects it's overall average by more than 0.1%
+    categories:
+      - 
+    tags:
+      - 
+    style:                 # Adding additional CSS-styles to <head>
+    breadcrumb: false      # before setting to true need to sort out how you want it to get the section names etc 
+    homepage: false        # Hack to make the navigation highlight this page as active in the topbar
+---
+    <html>
+        <head>
+            
+        </head>
+
+        <body>
+            <table border="1" class="dataframe mystyle">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Test Run</th>
+      <th>Metric</th>
+      <th>Avg Before Clean</th>
+      <th>Avg After Clean</th>
+      <th>Diff (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>R02</td>
+      <td>Crank Speed</td>
+      <td>12.8500</td>
+      <td>12.7300</td>
+      <td>0.94</td>
+    </tr>
+    <tr>
+      <td>R02</td>
+      <td>Drag</td>
+      <td>-14.9918</td>
+      <td>-14.9541</td>
+      <td>0.25</td>
+    </tr>
+    <tr>
+      <td>R04</td>
+      <td>Drag</td>
+      <td>-16.7589</td>
+      <td>-16.7376</td>
+      <td>0.13</td>
+    </tr>
+    <tr>
+      <td>R05</td>
+      <td>Drag</td>
+      <td>-16.7332</td>
+      <td>-16.7145</td>
+      <td>0.11</td>
+    </tr>
+    <tr>
+      <td>R02</td>
+      <td>Crank Angle Delta</td>
+      <td>6.1500</td>
+      <td>6.0900</td>
+      <td>0.99</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <!-- Inserts MD file converted to HTML -->
+            <zero-md src="DataCleaned_.md"></zero-md> 
+            <p></p>
+            <p><a href="javascript:history.back()">...Go Back</a></p>               
+        </body>
+    </html>
+    

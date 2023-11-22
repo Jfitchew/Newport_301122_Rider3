@@ -3,8 +3,9 @@ layout: page
 title: "Newport 30/11/22 (Rider 3) "
 ---
 
-- [Data Validation](CleanedByBR/)
-- [Data Analysis](Validated/)
+- [Data Cleaning](CleanedData/)
+- [Data Validation](ValidatedData/)
+- [Data Analysis](AnalysedData/)
 
 
 ## Other Test Days

@@ -1,0 +1,223 @@
+---
+    layout: page                   
+    subheadline: Data Validation
+    title: Air Speed Correction Factor
+    teaser: Shown below are the suggested correction factors for the Air Speed based on bike speeds
+    categories:
+      - 
+    tags:
+      - 
+    style:                 # Adding additional CSS-styles to <head>
+    breadcrumb: false      # before setting to true need to sort out how you want it to get the section names etc 
+    homepage: false        # Hack to make the navigation highlight this page as active in the topbar
+---
+    <html>
+        <head>
+            
+        </head>
+
+        <body>
+            <table border="1" class="dataframe mystyle">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Test Run</th>
+      <th>Sector</th>
+      <th>Ground Speed</th>
+      <th>Speed from Crank</th>
+      <th>Air Speed</th>
+      <th>Correction (ground)</th>
+      <th>Correction (crank)</th>
+      <th>Avg Correction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>R02</td>
+      <td>Mid-Straight (back)</td>
+      <td>12.599154</td>
+      <td>12.608964</td>
+      <td>12.610043</td>
+      <td>0.999137</td>
+      <td>0.999914</td>
+      <td>1.006795</td>
+    </tr>
+    <tr>
+      <td>R02</td>
+      <td>Mid-Straight (home)</td>
+      <td>12.591834</td>
+      <td>12.608881</td>
+      <td>12.412439</td>
+      <td>1.014453</td>
+      <td>1.015826</td>
+      <td>1.006795</td>
+    </tr>
+    <tr>
+      <td>R03</td>
+      <td>Mid-Straight (back)</td>
+      <td>12.975171</td>
+      <td>12.988734</td>
+      <td>12.913550</td>
+      <td>1.004772</td>
+      <td>1.005822</td>
+      <td>1.009964</td>
+    </tr>
+    <tr>
+      <td>R03</td>
+      <td>Mid-Straight (home)</td>
+      <td>12.921669</td>
+      <td>12.934050</td>
+      <td>12.728751</td>
+      <td>1.015156</td>
+      <td>1.016129</td>
+      <td>1.009964</td>
+    </tr>
+    <tr>
+      <td>R04</td>
+      <td>Mid-Straight (back)</td>
+      <td>12.836915</td>
+      <td>12.851295</td>
+      <td>12.657084</td>
+      <td>1.014208</td>
+      <td>1.015344</td>
+      <td>1.018042</td>
+    </tr>
+    <tr>
+      <td>R04</td>
+      <td>Mid-Straight (home)</td>
+      <td>12.810528</td>
+      <td>12.823406</td>
+      <td>12.536286</td>
+      <td>1.021876</td>
+      <td>1.022903</td>
+      <td>1.018042</td>
+    </tr>
+    <tr>
+      <td>R05</td>
+      <td>Mid-Straight (back)</td>
+      <td>12.803226</td>
+      <td>12.814765</td>
+      <td>12.609161</td>
+      <td>1.015391</td>
+      <td>1.016306</td>
+      <td>1.023197</td>
+    </tr>
+    <tr>
+      <td>R05</td>
+      <td>Mid-Straight (home)</td>
+      <td>12.807603</td>
+      <td>12.819716</td>
+      <td>12.422463</td>
+      <td>1.031003</td>
+      <td>1.031979</td>
+      <td>1.023197</td>
+    </tr>
+    <tr>
+      <td>R06</td>
+      <td>Mid-Straight (back)</td>
+      <td>13.103185</td>
+      <td>13.115316</td>
+      <td>13.012519</td>
+      <td>1.006968</td>
+      <td>1.007900</td>
+      <td>1.010144</td>
+    </tr>
+    <tr>
+      <td>R06</td>
+      <td>Mid-Straight (home)</td>
+      <td>13.043378</td>
+      <td>13.054719</td>
+      <td>12.871923</td>
+      <td>1.013320</td>
+      <td>1.014201</td>
+      <td>1.010144</td>
+    </tr>
+    <tr>
+      <td>R07</td>
+      <td>Mid-Straight (back)</td>
+      <td>12.781434</td>
+      <td>12.793857</td>
+      <td>12.671201</td>
+      <td>1.008700</td>
+      <td>1.009680</td>
+      <td>1.016466</td>
+    </tr>
+    <tr>
+      <td>R07</td>
+      <td>Mid-Straight (home)</td>
+      <td>12.732440</td>
+      <td>12.743660</td>
+      <td>12.431210</td>
+      <td>1.024232</td>
+      <td>1.025134</td>
+      <td>1.016466</td>
+    </tr>
+    <tr>
+      <td>R08</td>
+      <td>Mid-Straight (back)</td>
+      <td>12.667764</td>
+      <td>12.683519</td>
+      <td>12.667782</td>
+      <td>0.999999</td>
+      <td>1.001242</td>
+      <td>1.008529</td>
+    </tr>
+    <tr>
+      <td>R08</td>
+      <td>Mid-Straight (home)</td>
+      <td>12.661555</td>
+      <td>12.668653</td>
+      <td>12.449182</td>
+      <td>1.017059</td>
+      <td>1.017629</td>
+      <td>1.008529</td>
+    </tr>
+    <tr>
+      <td>R09</td>
+      <td>Mid-Straight (back)</td>
+      <td>12.728643</td>
+      <td>12.741680</td>
+      <td>12.641813</td>
+      <td>1.006868</td>
+      <td>1.007900</td>
+      <td>1.013104</td>
+    </tr>
+    <tr>
+      <td>R09</td>
+      <td>Mid-Straight (home)</td>
+      <td>12.869304</td>
+      <td>12.883580</td>
+      <td>12.625147</td>
+      <td>1.019339</td>
+      <td>1.020470</td>
+      <td>1.013104</td>
+    </tr>
+    <tr>
+      <td>R10</td>
+      <td>Mid-Straight (back)</td>
+      <td>13.171151</td>
+      <td>13.189124</td>
+      <td>13.303155</td>
+      <td>0.990077</td>
+      <td>0.991428</td>
+      <td>0.998143</td>
+    </tr>
+    <tr>
+      <td>R10</td>
+      <td>Mid-Straight (home)</td>
+      <td>13.125648</td>
+      <td>13.143511</td>
+      <td>13.044661</td>
+      <td>1.006208</td>
+      <td>1.007578</td>
+      <td>0.998143</td>
+    </tr>
+  </tbody>
+</table>
+            
+            <!-- Inserts MD file converted to HTML -->
+            <zero-md src="AirSpeedCorrection_.md"></zero-md> 
+            <p></p>
+            <p><a href="javascript:history.back()">...Go Back</a></p>               
+        </body>
+    </html>
+    
